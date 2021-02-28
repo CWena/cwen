@@ -1,2 +1,7 @@
 # cwen
 tuya lceda stm32
+##描述
+本项目采用采用STM32F103RCT6芯片主控采用涂鸦芯片WB3S进行云平台控制的一款智能卧室管理系统，硬件温度传感采用DHT11,用IIC控制的OLED屏幕显示信息，控制卧室灯的开关，并没有采用经常用的继电器控制，而是采用了更安全，更简单的舵机控制，通过在舵机上安装一个塑料片，通过手机控制旋转舵机，对卧室灯光开关实现亮与灭的控制，无需连接电线，安全性更高；我床头上的插排实现定时控制，每次睡觉前想要充手机但总是害怕充电时间过长，于是我加上了这一功能，一在凌晨2点自动断电，早上9点自动来电，二睡觉前在APP上点击睡眠1小时后插排自动断电，起床后点击起床电接通，这一功能采用了继电器对插排的开关进行控制；
+##EN
+304/5000 
+This project adopts the STM32F103RCT6 master control chip with graffiti chip WB3S cloud platform control a intelligent bedroom management system, the hardware using DHT11 temperature sensor, using IIC control of OLED screen display information, control the bedroom light switch, did not use often use relay control, but the more safe, more simple steering gear control, through the steering gear is installed on a plastic sheet, rotary steering gear control by mobile phones, the bedroom lights on and off switch control, without the connection wire, security is higher; My bed strip implementation timing control, every time before sleeping want to charge mobile phone but is always afraid of the charging time is too long, so I added the function of an automatic power at 2 o 'clock in the morning, at 9 o 'clock in the morning call automatically, the second before you go to bed after 1 hour of sleep in the APP by clicking on strip power automatically, after getting up, click on the bed is energized, the function USES the relay to control strip in the switch;
